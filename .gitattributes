@@ -1,4 +1,13 @@
-# Ignore Flutter desktop platform code when calculating GitHub language stats
-linux/** linguist-generated=true
-macos/** linguist-generated=true
-windows/** linguist-generated=true
+# Ignore all platform-specific generated files from language stats
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+ios/** linguist-vendored
+android/** linguist-vendored
+web/** linguist-vendored
+*.cc linguist-vendored
+*.h linguist-vendored
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.swift linguist-vendored
+*.cmake linguist-vendored
