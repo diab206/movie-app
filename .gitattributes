@@ -1,0 +1,4 @@
+# Ignore Flutter desktop platform code when calculating GitHub language stats
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+windows/** linguist-generated=true
